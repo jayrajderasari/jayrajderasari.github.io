@@ -9683,29 +9683,30 @@ textarea.form-control {
   text-align: center;
   padding-top: 8%;
 }
+    .testimonial-form{
+      padding-top: 5%;
+    }
     .myButton {
-      box-shadow: 2px 24px 29px 4px #276873;
-      background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
-      background-color:#599bb3;
-      border-radius:10px;
+      background:linear-gradient(to bottom, #3e64ff 5%, #3e64ff 100%);
+      background-color:#3e64ff;
+      border-radius:5px;
+      border:1px solid #566963;
       display:inline-block;
       cursor:pointer;
       color:#ffffff;
       font-family:Arial;
       font-size:28px;
       font-weight:bold;
-      padding:26px 34px;
+      padding:26px 74px;
       text-decoration:none;
-      text-shadow:0px 6px 1px #3d768a;
     }
     .myButton:hover {
-      background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
-      background-color:#408c99;
+      background:linear-gradient(to bottom, #3e64ff 5%, #3e64ff 100%);
+      background-color:#6c7c7c;
+      color: #fff;
     }
     .myButton:active {
       position:relative;
       top:1px;
     }
-    .testimonial-form{
-      padding-top: 5%;
-    }
+    
