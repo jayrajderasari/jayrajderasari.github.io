@@ -8750,6 +8750,10 @@ h1, h2, h3, h4, h5,
       .ftco-partner .partner {
         padding: 0 70px;
         margin-bottom: 40px; } }
+.partner img{
+  height: 20vh;
+  width: auto;
+}
 
 .services-1 {
   margin-bottom: 40px;
@@ -9068,17 +9072,22 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
-  position: relative; }
-  @media (max-width: 767.98px) {
-    .ftco-section {
-      padding: 6em 0; } }
+  position: relative; 
+}
 
-.ftco-no-pt {
-  padding-top: 0 !important; }
 
-.ftco-no-pb {
-  padding-bottom: 0 !important; }
+.zoom {
+  /* padding: 50px; */
+  /* background-color: green; */
+  transition: transform .2s; /* Animation */
+  /* width: 200px;
+  height: 200px; */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 .ftco-bg-dark {
   background: #3c312e; }
