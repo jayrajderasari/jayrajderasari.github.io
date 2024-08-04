@@ -216,7 +216,10 @@ textarea {
 button,
 input {
   overflow: visible; }
-
+.icon{
+  color: #000;
+  text-decoration-color: #000;
+}
 button,
 select {
   text-transform: none; }
